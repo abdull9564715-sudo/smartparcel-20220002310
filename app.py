@@ -4,7 +4,7 @@ import boto3
 # Create SNS client
 sns = boto3.client('sns', region_name='ap-southeast-2')
 
-# Correct SNS Topic ARN (YOUR ID)
+# Correct SNS Topic ARN my ID 
 TOPIC_ARN = "arn:aws:sns:ap-southeast-2:230195035124:smartparcel-alerts-20220002310"
 
 def lambda_handler(event, context):
